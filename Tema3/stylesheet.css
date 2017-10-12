@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+}
+/* Style the tab buttons */
+.tablink {
+    background-color: #2a3139;
+    color: rgb(180,180,180);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 3vw;
+    width: 25%;
+    margin-top:-5px;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #636f7b;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+.background{
+  height:100vh;
+  background-image: url("muurr.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+figure{
+  margin: 0;
+}
+
+figcaption{
+  width:100%;
+  margin: 0px;
+}
+
+.sortboksss{
+width: 100%;
+height: auto;
+}
+
+/*footer*/
+footer {
+  background-color: #2a3139;
+  bottom: 0;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 1.5rem;
+  position: relative;
+  width:100%;
+  margin-top: -4px;
+}
+/* Icon stylings */
+.socialmedia {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 250px;
+}
+
+ul.socialicons {
+  list-style: none;
+  margin-top: 1px;
+  padding: 0;
+  text-align: center;
+}
+
+.socialicons li {
+  vertical-align: top;
+  display: inline;
+}
+
+.socialicons a {
+  color: white;
+  text-decoration: none;
+}
+
+.fa {
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+  width: 37px;
+}
+
+.fa-facebook {
+  border-radius: 100%;
+  padding: 10px 14px;
+  transition: .6s;
+}
+
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+
+.fa-twitter {
+  padding: 10px 12px;
+  transition: .6s;
+}
+
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+
+.fa-youtube {
+    padding: 10px 12px;
+    transition: .6s;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+.fa-instagram {
+    padding: 10px 12px;
+    transition: .6s;
+}
+.fa-instagram:hover {
+    background-color: #125688;
+}
+
+.footertext {
+  color: rgb(180,180,180);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px){
+
+  figure img{
+    width: 70%;
+  }
+
+  figcaption{
+    width: 30%;
+    margin: 0;
+    float: right;
+    color: white;
+    font-size: 200%;
+  }
+
+
+} /* END min-width 480px */
